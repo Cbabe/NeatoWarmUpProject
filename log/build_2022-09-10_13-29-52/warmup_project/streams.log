@@ -1,0 +1,26 @@
+[0.573s] Invoking command in '/home/webmeister/ros2_ws/src/NeatoWarmUpProject/build/warmup_project': PYTHONPATH=/home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project --editable --build-directory /home/webmeister/ros2_ws/src/NeatoWarmUpProject/build/warmup_project/build --no-deps install_data --install-dir /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project
+[0.784s] running develop
+[0.906s] running egg_info
+[0.907s] creating warmup_project.egg-info
+[0.907s] writing warmup_project.egg-info/PKG-INFO
+[0.907s] writing dependency_links to warmup_project.egg-info/dependency_links.txt
+[0.907s] writing entry points to warmup_project.egg-info/entry_points.txt
+[0.908s] writing requirements to warmup_project.egg-info/requires.txt
+[0.908s] writing top-level names to warmup_project.egg-info/top_level.txt
+[0.910s] writing manifest file 'warmup_project.egg-info/SOURCES.txt'
+[0.938s] reading manifest file 'warmup_project.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'warmup_project.egg-info/SOURCES.txt'
+[0.968s] running build_ext
+[0.969s] Creating /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/python3.8/site-packages/site.py
+[0.970s] Creating /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/python3.8/site-packages/warmup-project.egg-link (link to .)
+[0.971s] Installing teleop script to /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/warmup_project
+[0.971s] Installing visualization_publisher script to /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/warmup_project
+[0.972s] 
+[0.972s] Installed /home/webmeister/ros2_ws/src/NeatoWarmUpProject/build/warmup_project
+[0.972s] running install_data
+[0.972s] creating /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/share/ament_index
+[0.972s] creating /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/share/ament_index/resource_index
+[0.972s] creating /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/share/ament_index/resource_index/packages
+[0.972s] copying resource/warmup_project -> /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/share/ament_index/resource_index/packages
+[0.972s] copying package.xml -> /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/share/warmup_project
+[0.993s] Invoked command in '/home/webmeister/ros2_ws/src/NeatoWarmUpProject/build/warmup_project' returned '0': PYTHONPATH=/home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project --editable --build-directory /home/webmeister/ros2_ws/src/NeatoWarmUpProject/build/warmup_project/build --no-deps install_data --install-dir /home/webmeister/ros2_ws/src/NeatoWarmUpProject/install/warmup_project
