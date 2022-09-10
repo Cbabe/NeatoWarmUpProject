@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'teleop = warmup_project.teleop:main',
-            'visualization_publisher = warmup_project.visualization_publisher:main'
+            'visualization_publisher = warmup_project.visualization_publisher:main',
+            'drive_square = warmup_project.drive_square:main'
         ],
     },
 )
