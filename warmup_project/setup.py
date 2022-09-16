@@ -23,7 +23,9 @@ setup(
             'teleop = warmup_project.teleop:main',
             'visualization_publisher = warmup_project.visualization_publisher:main',
             'drive_square = warmup_project.drive_square:main',
-            'wall_follower = warmup_project.wall_follower:main'
+            'wall_follower = warmup_project.wall_follower:main',
+            'obstacle_avoider = warmup_project.obstacle_avoider:main',
+            'person_follower = warmup_project.person_follower:main'
         ],
     },
 )
