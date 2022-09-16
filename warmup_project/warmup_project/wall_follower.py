@@ -1,4 +1,4 @@
-"""Read lidar data to tell neato to stop"""
+"""Read lidar data to tell neato to follow a wall"""
 
 import rclpy
 from rclpy.node import Node
