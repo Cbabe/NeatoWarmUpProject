@@ -11,7 +11,7 @@ import termios
 
 class teleop(Node):
     def __init__(self):
-        super().__init__('receive_bump_data')
+        super().__init__('teleop')
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
         print("WASD key board: W forward, S Backward, A Turn Right, D Turn Left, Any key to stop.")
         self.go_forwards()

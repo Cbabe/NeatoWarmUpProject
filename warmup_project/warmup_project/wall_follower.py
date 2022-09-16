@@ -4,6 +4,7 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import Twist
+from visualization_msgs.msg import Marker
 import time
 
 class wall_folower(Node):
@@ -11,6 +12,8 @@ class wall_folower(Node):
         self.state=0
         super().__init__('receive_laser_data')
         self.sub = self.create_subscription(LaserScan, 'scan', self.arbitor, 10)
+        self.vis_pub = self.create_publisher(Marker, 'visualization_marker', 10)
+
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
     
     def arbitor(self, msg):
