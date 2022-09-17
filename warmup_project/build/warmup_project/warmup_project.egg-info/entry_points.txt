@@ -1,0 +1,9 @@
+[console_scripts]
+drive_square = warmup_project.drive_square:main
+finite_state_controller = warmup_project.finite_state_controller:main
+obstacle_avoider = warmup_project.obstacle_avoider:main
+person_follower = warmup_project.person_follower:main
+teleop = warmup_project.teleop:main
+visualization_publisher = warmup_project.visualization_publisher:main
+wall_follower = warmup_project.wall_follower:main
+
