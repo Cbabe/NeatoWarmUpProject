@@ -1,4 +1,4 @@
-"""Read bump data to tell neato to stop"""
+"""Command neato via keyboard inputs"""
 
 import rclpy
 from rclpy.node import Node
