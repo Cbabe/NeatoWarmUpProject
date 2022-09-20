@@ -59,12 +59,18 @@ https://youtube.com/shorts/47JogZiDUis?feature=share
 
 ## Challenges
 
-What if any challenges did you face along the way?
+We faced a great deal of challenges when it came to complexity and LiDAR accuracy. On the complexity front, our original plan for the obstacle avoidance was to implement a system that fount the "most free" pathway and head in that direction. Ultimately this, did not work because the first "most free" path to be found was always too close to an obstacle and despite trying to create a buffer system or shift how the path was chosen we would ultimately run into something. We eventually decided to have the robot drive forward until it saw something within 45 degrees of the front on either side and rotate at least 90 degrees away from it. 
+
+As for the LiDAR troubles, we found that until the scan data populated completely with values we would receive lots of 0 values. We solved this by replacing them with the maximum range of the LiDAR at 10 meters. We also had issues with "ghost objects" where the LiDAR would read distances much higher or lower than were accurate. This issue was best solved with the averaging of several LiDAR points.
 
 ## Improvements
 
-What would you do to improve your project if you had more time?
+If we had more time, would have liked to implement RANSAC into most of our programs that involved obstacle detection. We would do this primarily so the system could make more accurate assumptions of the environment and therefore navigate more precisely. This would let us hopefully be able to run our programs in an area with higher densities of objects with fewer crashes. 
+
+We would have also liked to implement actual odometry in our navigation rather than basing all of our turning capabilities on timing. We spent time figuring out how long it took the neato to turn a certain amount at a specific angular velocity and used this calibration in all of our work. Odometry would have been more precise and computationally sound.
 
 ## Key Takeaways
 
-What are the key takeaways from this assignment for future robotic programming projects? For each takeaway, provide a sentence or two of elaboration.
+* Relying on a single sensor is not sound robotics engineering. In a system that is ment to navigate on its own, a single point of failure for the sensing system exposes the system to a great deal of risk. It is best to use multiple sensors and do as much sensor fusion and processing as is computationally feasible.
+
+* Building your systems on top of programs you already has both benefits and disadvantages. It is always best to avoid reinventing the wheel when it comes to programming, especially if you have written a particular function in a different part of the same project. One thing to keep in mind is that as code becomes more complicated it can often feel like a patchwork system that lacks coherence, things can make troubleshooting difficult and results in needing to start at ground zero anyway. 
