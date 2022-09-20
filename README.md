@@ -1,6 +1,6 @@
-    For each behavior, describe the problem at a high-level. Include any relevant diagrams that help explain your approach.  Discuss your strategy at a high-level and include any tricky decisions that had to be made to realize a successful implementation.
+For each behavior, describe the problem at a high-level. Include any relevant diagrams that help explain your approach. Discuss your strategy at a high-level and include any tricky decisions that had to be made to realize a successful implementation.
 
-    How was your code structured? Make sure to include a sufficient detail about the object-oriented structure you used for your project.
+How was your code structured? Make sure to include a sufficient detail about the object-oriented structure you used for your project.
 
 # Computational Robotics Warmup
 
@@ -15,7 +15,7 @@ This is a demonstration of basic robotic capabilities in ROS2 using a Neato robo
 
 ## Teleoperation
 
-The purpose of this portion of the warm up is to build a ros publisher and subscriber that allow the user to control the direction of the robot using their keyboard. The control scheme is communicated to the robot via network connectivity
+The purpose of this portion of the warm up is to build a ros publisher and subscriber that allow the user to control the direction of the robot using their keyboard. The control scheme is communicated to the robot via network connectivity.
 
 ** more to add **
 [![Teleoperation](https://img.youtube.com/vi/WBagvIFqbAY/hqdefault.jpg)](https://youtu.be/WBagvIFqbAY "Teleoperation")
@@ -50,6 +50,8 @@ https://youtu.be/ZM5VmYwmeHI
 https://youtube.com/shorts/oMyMJkR8LuE?feature=share
 
 ## Finite State control
+
+![Contribution guidelines for this project](./Imgs/Finite%20State%20Controller%20Comprobo.jpg)
 
 For the finite state controller, what was the overall behavior. What were the states? What did the robot do in each state? How did you combine and how did you detect when to transition between behaviors? Consider including a state transition diagram in your writeup.
 [![Finite State control](https://img.youtube.com/vi/47JogZiDUis/hqdefault.jpg)](https://youtu.be/47JogZiDUis "Finite State control")
